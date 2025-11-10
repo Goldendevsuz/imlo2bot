@@ -7,4 +7,4 @@ user_router = Router()
 
 @user_router.message(CommandStart())
 async def user_start(message: Message):
-    await message.reply("Hello, regular user!")
+    await message.reply("uz_imlo Botiga Xush Kelibsiz!")
